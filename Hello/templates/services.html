@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Services{% endblock title %}
+
+{% block body %}
+<div class="container">
+    <h2>Services</h2>
+
+    <h3>Ice Cream</h3>
+    {% include IceCream.html %}
+
+    <h3>Waffle</h3>
+    {% include waffle.html %}
+
+    <h3>Familypack</h3>
+    {% include Familypack.html %}
+</div>
+
+{% endblock body %}

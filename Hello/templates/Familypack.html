@@ -1,0 +1,362 @@
+{% extends 'base.html' %}
+
+{% block title %}Familypack{% endblock title %}
+
+{% block body %}
+
+<div class="container my-2">                  
+<h2 id="Products" class="fs-1 p-5 mt-5 mb-5 text-center">FAMILY PACK ICE CREAM SECTION</h2>
+     <div class="row">
+        <div class="col">
+            <div class="card">
+                <img class="product-img card-img-top img-fluid" src="/static/family1.jpg" alt="vanilla" style="max-height: 500px;">
+                <div class="card-body">
+                  <h5 class="card-title">Vanilla with Cadbury</h5>
+                  <p class="card-text">$10.00</p>
+                  <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal1">Add to Cart</button>
+              <div class="modal fade" id="addToCartModal1" tabindex="-1" aria-labelledby="addToCartModal1Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="addToCartModal1Label">Added to Cart</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Product has been added to your cart.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                      <button type="button" class="btn btn-primary">Go to Cart</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion" id="accordionExamplevanilla">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Description
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Our velvety, rich, and oh-so-creamy vanilla ice cream is a true masterpiece that has captured hearts for generations.
+              </div>
+            </div>
+          </div>
+       </div>
+       </div>
+       </div>
+
+     <div class="col">
+        <div class="card">
+            <img class="product-img card-img-top img-fluid" src="/static/family2.jpg" alt="strawberry" style="max-height: 800px">
+            <div class="card-body">
+              <h5 class="card-title">Strawberry</h5>
+              <p class="card-text">$12.00</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal2">Add to Cart</button>
+              <div class="modal fade" id="addToCartModal2" tabindex="-1" aria-labelledby="addToCartModal2Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="addToCartModal2Label">Added to Cart</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Product has been added to your cart.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                      <button type="button" class="btn btn-primary">Go to Cart</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion" id="accordionExamplestrawberry">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            Description
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Bursting with the vibrant taste of sun-ripened strawberries, every spoonful is a refreshing journey to berry bliss.
+          </div>
+        </div>
+      </div>
+   </div>
+   </div>
+   </div>
+   
+    <div class="col">
+        <div class="card">
+            <img class="product-img card-img-top" src="/static/family3.jpg" alt="butterscotch">
+            <div class="card-body">
+              <h5 class="card-title">ButterScotch</h5>
+              <p class="card-text">$15.00</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal3">Add to Cart</button>
+              <div class="modal fade" id="addToCartModal3" tabindex="-1" aria-labelledby="addToCartModal3Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="addToCartModal3Label">Added to Cart</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Product has been added to your cart.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                      <button type="button" class="btn btn-primary">Go to Cart</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion" id="accordionExamplebutterscotch">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+            Description
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Our butterscotch ice cream is swirled into a crispy, golden cone, creating a perfect harmony of flavors and textures.
+          </div>
+        </div>
+      </div>
+   </div>
+   </div>
+   </div>
+
+    <div class="col">
+        <div class="card">
+            <img class="product-img card-img-top" src="/static/family4.jpg" alt="chocolate">
+            <div class="card-body">
+              <h5 class="card-title">Chocolate</h5>
+              <p class="card-text">$12.00</p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal4">Add to Cart</button>
+              <div class="modal fade" id="addToCartModal4" tabindex="-1" aria-labelledby="addToCartModal4Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="addToCartModal1Label">Added to Cart</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Product has been added to your cart.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                      <button type="button" class="btn btn-primary">Go to Cart</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion" id="accordionExamplechocolate">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+            Description
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Every mouthwatering bite is a symphony of cocoa, delivering a luscious and satisfying treat for chocolate lovers.
+          </div>
+        </div>
+      </div>
+   </div>
+</div>
+ </div>
+ </div>
+
+ <div class="container my-2">
+ <div class="row">
+  <div class="col-md-3">
+      <div class="card">
+          <img class="product-img card-img-top" src="/static/family5.jpg" alt="blackcurrant" style="max-height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">BlackCurrant</h5>
+            <p class="card-text">$16.00</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal5">Add to Cart</button>
+            <div class="modal fade" id="addToCartModal5" tabindex="-1" aria-labelledby="addToCartModal5Label" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="addToCartModal5Label">Added to Cart</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Product has been added to your cart.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                    <button type="button" class="btn btn-primary">Go to Cart</button>
+                  </div>
+                </div>
+          </div>
+      </div>
+  </div>
+
+      <div class="accordion" id="accordionExampleBlackCurrant">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingShinGuards">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneShinGuards" aria-expanded="true" aria-controls="collapseOneBat">
+              Description
+            </button>
+          </h2>
+          <div id="collapseOneShinGuards" class="accordion-collapse collapse show" aria-labelledby="headingShinGuards" data-bs-parent="#accordionExampleBat">
+            <div class="accordion-body">
+            With each bite, you'll experience the tangy and sweet essence of ripe blackcurrants, perfectly balanced by the creamy, cool texture of our ice cream.
+            </div>
+          </div>
+        </div>
+     </div>
+     </div>
+     </div>
+
+     <div class="col-md-3">
+      <div class="card">
+          <img class="product-img card-img-top" src="/static/family6.jpg" alt="cashewnut" style="max-height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">CashewNut</h5>
+            <p class="card-text">$18.00</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal6">Add to Cart</button>
+            <div class="modal fade" id="addToCartModal6" tabindex="-1" aria-labelledby="addToCartModal6Label" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="addToCartModal6Label">Added to Cart</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Product has been added to your cart.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                    <button type="button" class="btn btn-primary">Go to Cart</button>
+                  </div>
+                </div>
+          </div>
+      </div>
+  </div>
+
+      <div class="accordion" id="accordionExamplecashewnut">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOneWhistle">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneWhistle" aria-expanded="true" aria-controls="collapseOneBat">
+              Description
+            </button>
+          </h2>
+          <div id="collapseOneWhistle" class="accordion-collapse collapse show" aria-labelledby="headingOneWhistle" data-bs-parent="#accordionExampleBat">
+            <div class="accordion-body">
+            With each bite, you'll experience the rich and buttery flavor of cashews, perfectly complemented by the cool, velvety texture of our ice cream.
+          </div>
+        </div>
+     </div>
+     </div>
+     </div>
+</div>
+     
+<div class="col-md-3">
+      <div class="card">
+          <img class="product-img card-img-top" src="/static/family7.jpg" alt="blue" style="max-height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">Blueberry</h5>
+            <p class="card-text">$17.00</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal7">Add to Cart</button>
+            <div class="modal fade" id="addToCartModal7" tabindex="-1" aria-labelledby="addToCartModal7Label" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="addToCartModal7Label">Added to Cart</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Product has been added to your cart.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                    <button type="button" class="btn btn-primary">Go to Cart</button>
+                  </div>
+                </div>
+          </div>
+      </div>
+  </div>
+
+      <div class="accordion" id="accordionExampleBlueberry">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOneTacticalBoard">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneTacticalBoard" aria-expanded="true" aria-controls="collapseOneBat">
+              Description
+            </button>
+          </h2>
+          <div id="collapseOneTacticalBoard" class="accordion-collapse collapse show" aria-labelledby="headingOneTacticalBoard" data-bs-parent="#accordionExampleBat">
+            <div class="accordion-body">
+            Each mouthwatering bite is a symphony of sweet and tangy blueberry flavor, perfectly harmonized with the cool, creamy texture of our ice cream. 
+            </div>
+          </div>
+        </div>
+     </div>
+     </div>
+     </div>
+
+     <div class="col-md-3">
+      <div class="card">
+          <img class="product-img card-img-top" src="/static/family8.jpg" alt="pista" style="max-height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">Pista</h5>
+            <p class="card-text">$16.00</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addToCartModal8">Add to Cart</button>
+            <div class="modal fade" id="addToCartModal8" tabindex="-1" aria-labelledby="addToCartModal8Label" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="addToCartModal8Label">Added to Cart</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Product has been added to your cart.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue Shopping</button>
+                    <button type="button" class="btn btn-primary">Go to Cart</button>
+                  </div>
+                </div>
+          </div>
+      </div>
+  </div>
+
+      <div class="accordion" id="accordionExampleBibs">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOneBibs">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneBibs" aria-expanded="true" aria-controls="collapseOneBat">
+              Description
+            </button>
+          </h2>
+          <div id="collapseOneBibs" class="accordion-collapse collapse show" aria-labelledby="headingOneBibs" data-bs-parent="#accordionExampleBat">
+            <div class="accordion-body">
+            With every indulgent bite, you'll savor the earthy and buttery notes of pistachios, elegantly balanced by the creamy, cool texture of our ice cream. 
+            </div>
+          </div>
+        </div>
+     </div>
+     </div>
+     </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+{% endblock body %}
